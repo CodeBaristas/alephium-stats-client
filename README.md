@@ -11,15 +11,12 @@ This repository showcases how to interact with the backend system and provides e
 To generate the client, follow these steps:
 
 1. Navigate to the root backend directory.
-2. Ensure all necessary dependencies are installed (poetry, lets, openapi-generator-cli)
+2. Ensure all necessary dependencies are installed (lets, openapi-generator-cli)
 3. Use the command `lets client` to generate the client.
 
 ## Open Endpoints
 
-All open endpoints and their functionalities can be found in the [documentation](https://alephiumstatsapi.alph.land/docs). These endpoints are accessible without authentication and serve as the entry points for interacting with the backend. Since this is only a proof of concept, the system is designed to be easily extensible. You can add new endpoints to fulfill additional functionalities as needed.
-
-Open endpoints are accessible without authentication and serve as the entry points for interacting with the backend. You can find detailed information about these endpoints and their functionalities in the documentation.
-These endpoints are designed to be easily extensible, allowing for the addition of new endpoints to fulfill additional functionalities as needed.
+All open endpoints and their functionalities can be found in the [documentation](https://alephiumstatsapi.alph.land/docs). These endpoints serve as the entry points for interacting with the backend. Since this is only a proof of concept, the system is designed to be easily extensible. You can add new endpoints to fulfill additional functionalities as needed.
 
 ## Additional Resources
 
